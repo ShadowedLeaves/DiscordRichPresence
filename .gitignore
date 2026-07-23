@@ -1,0 +1,10 @@
+.gradle/
+build/
+run/
+.vscode/
+Thumbs.db
+*.DS_Store
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr

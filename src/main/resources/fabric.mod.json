@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "discordrichpresence",
+	"version": "${version}",
+	"name": "Discord Rich Presence",
+	"description": "Displays detailed Minecraft activity in Discord using Rich Presence",
+	"authors": [
+		"ShadowedLeaves"
+	],
+	"contact": {
+		"sources": "https://github.com/ShadowedLeaves/DiscordRichPresence"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.shadowedleaves.discordrichpresence.DiscordRichPresence"
+		],
+		"client": [
+			"dev.shadowedleaves.discordrichpresence.DiscordRichPresenceClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
