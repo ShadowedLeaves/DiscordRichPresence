@@ -8,11 +8,11 @@ public final class DimensionFormatter {
 	}
 
 	public static String format(ResourceKey<Level> dimensionKey) {
-		return switch (dimensionKey.location().getPath()) {
+		return switch (dimensionKey.identifier().getPath()) {
 			case "overworld" -> "Overworld";
 			case "the_nether" -> "The Nether";
 			case "the_end" -> "The End";
-			default -> formatCustom(dimensionKey.location().getNamespace(), dimensionKey.location().getPath());
+			default -> formatCustom(dimensionKey.identifier().getNamespace(), dimensionKey.identifier().getPath());
 		};
 	}
 

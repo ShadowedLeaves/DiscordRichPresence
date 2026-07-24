@@ -2,8 +2,8 @@
 
 A lightweight Fabric mod that displays your Minecraft activity on Discord using the Discord Game SDK.
 
-**Supported versions:** Minecraft `1.21` through `1.21.x`  
-**Java:** 21  
+**Supported versions:** Minecraft `26.x` (verified on 26.1 and 26.2)  
+**Java:** 25  
 **Side:** Client only
 
 ## Features
@@ -33,8 +33,8 @@ State shows one value at a time and rotates every 3 seconds. Empty values are sk
 
 - Fabric Loader `>=0.19.3`
 - Fabric API (matching your Minecraft version)
-- Minecraft `1.21.x`
-- Java 21
+- Minecraft `26.x`
+- Java 25
 - Discord desktop app
 
 

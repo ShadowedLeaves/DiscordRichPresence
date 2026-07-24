@@ -18,11 +18,11 @@ public final class MinecraftVersionFormatter {
 	private static String fromSharedConstants() {
 		WorldVersion version = SharedConstants.getCurrentVersion();
 		try {
-			return "Minecraft " + version.getId();
+			return "Minecraft " + version.id();
 		} catch (Throwable ignored) {
 		}
 		try {
-			return "Minecraft " + version.getName();
+			return "Minecraft " + version.name();
 		} catch (Throwable ignored) {
 		}
 		return "Minecraft";
